@@ -1,7 +1,8 @@
 const {test,expect}=require('@playwright/test')
-
+test.use({viewport: { width: 1500, height: 720 }});
 test ("Valid Login", async function({page}) {
     await page.goto("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
+    
     await page.getByPlaceholder("Username").type("Admin",{delay: 100})
     await page.locator("input[placeholder='Password']").type("admin123",{delay: 100})
     await page.locator("//button[@type='submit']").click()
