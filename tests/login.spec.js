@@ -2,8 +2,8 @@ const {test,expect}=require('@playwright/test')
 
 test ("Valid Login", async function({page}) {
     await page.goto("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
-    await page.getByPlaceholder("Username").type("Admin")
-    await page.locator("input[placeholder='Password']").type("admin123")
+    await page.getByPlaceholder("Username").type("Admin",{delay: 100})
+    await page.locator("input[placeholder='Password']").type("admin123",{delay: 100})
     await page.locator("//button[@type='submit']").click()
     await page.waitForTimeout(5000); // Wait for 2 seconds to ensure the page loads
     // Verify that the URL contains 'dashboard' after login
