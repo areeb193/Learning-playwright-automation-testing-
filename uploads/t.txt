@@ -1,0 +1,16 @@
+Job Title: Junior Frontend Developer
+
+Job Description:
+We are seeking a motivated Junior Frontend Developer to join our team. The ideal candidate should have a strong understanding of HTML, CSS, and JavaScript, and be familiar with React.js. Responsibilities include building responsive web interfaces, collaborating with designers and backend developers, and maintaining code quality. Good communication skills and a willingness to learn are essential.
+
+Requirements:
+
+Proficiency in HTML, CSS, JavaScript
+Experience with React.js
+Basic understanding of REST APIs
+Ability to work in a team environment
+Strong problem-solving skills
+Preferred:
+
+Experience with version control (Git)
+Familiarity with UI/UX principles
